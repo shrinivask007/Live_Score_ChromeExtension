@@ -1,0 +1,11 @@
+{
+    "manifest_version":3,
+    "name":"Live Score",
+    "version": "1.0",  
+    "description":"This Live Cricket Matches extension fetches real-time cricket match data using the CricAPI and displays it in a clean, responsive layout. Made By: Shrinivas Kathare",
+    "author":"Shrinivas Kathare",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"This is title"
+    }
+}

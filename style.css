@@ -1,0 +1,53 @@
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    min-width: 300px;
+}
+
+/* Style for the header */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Style for the match list */
+ul#matches {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for each match item */
+ul#matches li {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #34495e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect on list items */
+ul#matches li:hover {
+    background-color: #dcdde1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    ul#matches li {
+        font-size: 1rem;
+    }
+}
