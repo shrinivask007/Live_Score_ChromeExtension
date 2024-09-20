@@ -1,5 +1,5 @@
 
-# Live Cricket Matches Extension
+# Live Cricket Matches Chrome Extension
 
 This extension fetches real-time cricket match data using the CricAPI and dynamically displays it in a responsive and easy-to-read format. Users can view ongoing match details, including the match name, type, and current status, all in a clean list format.
 
@@ -27,6 +27,12 @@ This extension fetches real-time cricket match data using the CricAPI and dynami
    ```
 
 2. Open the `index.html` file in your browser to see live cricket match data displayed dynamically.
+
+3. Testing the Extension
+- Load the Unpacked Extension:
+- Go to chrome://extensions/ in your browser.
+- Enable "Developer mode" (top right corner).
+- Click "Load unpacked" and select your project(Live_Score_ChromeExtension)directory.
 
 ## Dependencies
 
